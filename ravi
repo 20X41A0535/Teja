@@ -1,10 +1,12 @@
-pipeline{
+pipeline
+{
 agent any
 stages
 {
 stage('check validate')
 {
-steps{
+steps
+{
 echo 'iam validating the code'
 }
 }
@@ -12,21 +14,24 @@ stages
 {
 stage('compile')
 {
-steps{
+steps
+{
 echo 'iam compiling the code'
 }
 }stages
 {
 stage(' install')
 {
-steps{
+steps
+{
 echo 'iam installing the code'
 }
 }stages
 {
 stage(' deploy')
 {
-steps{
+steps
+{
 echo 'iam deploying the code'
 }
 }
