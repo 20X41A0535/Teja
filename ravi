@@ -5,7 +5,7 @@ stages
 stage('check validate')
 {
 steps{
-echo 'iam validating tha code'
+echo 'iam validating the code'
 }
 }
 stages
@@ -13,20 +13,22 @@ stages
 stage('compile')
 {
 steps{
-echo 'iam compiling tha code'
+echo 'iam compiling the code'
 }
 }stages
 {
 stage(' install')
 {
 steps{
-echo 'iam installing tha code'
+echo 'iam installing the code'
 }
 }stages
 {
 stage(' deploy')
 {
 steps{
-echo 'iam deploying tha code'
+echo 'iam deploying the code'
+}
+}
 }
 }
